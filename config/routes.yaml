@@ -1,0 +1,9 @@
+form:
+    path: /
+    controller: App\Controller\MakeFormController::new
+
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
